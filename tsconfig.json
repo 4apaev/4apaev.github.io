@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir"                      : "dist",
+    "module"                      : "es2022",
+    "target"                      : "es2022",
+    "moduleResolution"            : "node",
+    "downlevelIteration"          : true,
+    "allowSyntheticDefaultImports": true,
+    "declaration"                 : true,
+    "allowJs"                     : true,
+    "pretty"                      : true,
+  },
+
+  "include": [
+    "./src",
+    "./node_modules/tsync/src"
+  ]
+}

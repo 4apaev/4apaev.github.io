@@ -1,0 +1,29 @@
+{
+  "name"        : "4apaev.github.io",
+  "author"      : "Michael Miretsky",
+  "version"     : "0.0.1",
+  "license"     : "MIT",
+
+  "type"        : "module",
+  "main"        : "index.js",
+
+  "repository"  : {
+    "type": "git",
+    "url" : "git@github.com:4apaev/4apaev.github.io.git"
+  },
+
+  "scripts": {
+    "tsc"  : "rm -rf dist; tsc",
+    "start": "node index.js",
+    "test" : "node --test src/**/*.spec.js"
+  },
+
+  "dependencies": {
+    "tsync": "git@github.com:4apaev/tsync.git"
+  },
+
+  "devDependencies": {
+    "eslint"     : "^8.38.0",
+    "@types/node": "^18.15.11"
+  }
+}
